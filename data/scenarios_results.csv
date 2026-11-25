@@ -1,0 +1,17 @@
+﻿scenario_id;step;action;user_id;result_top5;notes
+SC1;1;guest opens homepage;;P176,P014,P003,P036,P042;fallback popular+new
+SC1;2;guest views P014 and adds to cart;;P013,P015,P017,P019,P159;content-based from P014
+SC1;3;guest logs in as U10;U10;P036,P042,P003,P014,P176;merge session; history available
+SC2;1;U01 opens homepage;U01;P019,P159,P162,P023,P026;personal profile
+SC2;2;U01 views P019 and adds to cart;U01;P020,P026,P023,P162,P175;related
+SC2;3;U01 purchases;U01;P020,P026,P023,P159,P162;bought-together
+SC3;1;U03 opens homepage;U03;P184,P176,P185,P181,P177;smart group
+SC3;2;U03 views P184 and adds to cart;U03;P183,P177,P178,P182,P185;smart related
+SC3;3;U03 increases pref_smart weight manually;U03;P184,P183,P177,P178,P182;weight alpha up
+SC4;1;U05 opens homepage;U05;P029,P044,P095,P049,P041;premium minimal
+SC4;2;U05 views P029;U05;P041,P033,P034,P044,P095;related
+SC4;3;U05 changes pref_premium to -0.5;U05;P044,P041,P033,P049,P042;premium down
+SC5;1;U10 opens homepage new;U10;P176,P014,P003,P036,P042;cold start
+SC5;2;U10 adds P036;U10;P037,P042,P043,P060,P067;textile related
+SC5;3;U10 buys O010;U10;P037,P042,P043,P060,P067;history grows
+SC5;4;U10 disables personalization;U10;P176,P014,P003,P036,P042;fallback

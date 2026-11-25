@@ -1,0 +1,11 @@
+﻿order_id;user_id;status;total_rub;created_at
+O001;U01;delivered;1980;2025-04-12 12:20
+O002;U02;cancelled;990;2025-04-15 14:15
+O003;U03;delivered;12990;2025-04-16 20:40
+O004;U04;delivered;3980;2025-04-18 21:25
+O005;U05;delivered;2190;2025-04-19 11:25
+O006;U06;delivered;2490;2025-04-20 19:20
+O007;U07;delivered;6990;2025-04-13 10:15
+O008;U08;delivered;1270;2025-04-14 11:45
+O009;U09;delivered;3990;2025-04-22 20:20
+O010;U10;paid;1780;2025-04-27 12:15

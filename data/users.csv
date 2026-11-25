@@ -1,0 +1,11 @@
+﻿user_id;name;email;password_hash;group_hint;personalization;created_at
+U01;Анна С.;u01@example.test;sha256:u01salt:a1f3c9;G1;true;2024-11-02
+U02;Дмитрий К.;u02@example.test;sha256:u02salt:7c2e1d;G1;true;2024-12-15
+U03;Олег В.;u03@example.test;sha256:u03salt:9b4f2a;G2;true;2025-01-08
+U04;Мария Л.;u04@example.test;sha256:u04salt:3d8e5f;G2;true;2025-01-20
+U05;Екатерина Н.;u05@example.test;sha256:u05salt:5a1c7b;G3;true;2024-10-05
+U06;Игорь П.;u06@example.test;sha256:u06salt:2f6d4c;G3;true;2024-12-01
+U07;Сергей Т.;u07@example.test;sha256:u07salt:8e3b9a;G4;true;2025-03-12
+U08;Наталья Р.;u08@example.test;sha256:u08salt:6d2a1c;G4;true;2025-03-25
+U09;Алексей М.;u09@example.test;sha256:u09salt:4c8f7e;G1|G2;true;2025-04-02
+U10;Виктор З.;u10@example.test;sha256:u10salt:1b9e6d;;true;2025-04-28

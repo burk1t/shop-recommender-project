@@ -1,0 +1,215 @@
+﻿source_id;target_id;relation_type;weight;reason
+P001;P004;co_consumption;0.72;Куплены вместе 11 раз
+P001;P008;compatibility;0.65;Ножи + кастрюли на кухне
+P002;P007;co_consumption;0.55;Сковорода и чайник
+P003;P005;compatibility;0.60;Один стиль сервировки
+P003;P006;co_consumption;0.58;Тарелки и доска
+P004;P008;compatibility;0.62;Приборы + ножи
+P005;P045;compatibility;0.50;Бокалы и свечи
+P006;P022;co_consumption;0.57;Доска и подставка для специй
+P007;P013;co_consumption;0.66;Чайник и электрочайник
+P008;P018;co_consumption;0.60;Ножи и миксер
+P009;P030;compatibility;0.55;Детская посуда + детское бельё
+P010;P017;substitute;0.48;Мультиварка/аэрогриль
+P011;P018;substitute;0.52;Блендер/миксер
+P012;P015;compatibility;0.45;Кофемашина и весы
+P013;P014;compatibility;0.55;Завтрак: чайник + тостер
+P014;P015;compatibility;0.50;Тостер и весы
+P015;P021;co_consumption;0.42;Весы и органайзер
+P016;P023;co_consumption;0.52;Сушилка и крышки
+P017;P013;compatibility;0.48;Аэрогриль и чайник
+P018;P010;substitute;0.50;Миксер/мультиварка
+P019;P020;substitute;0.55;Пластик vs стекло
+P019;P026;co_consumption;0.60;Контейнеры + банки
+P020;P026;co_consumption;0.65;Стекло: контейнеры + банки
+P021;P022;compatibility;0.55;Органайзеры для приборов и специй
+P022;P024;co_consumption;0.58;Специи и хлебница
+P023;P026;compatibility;0.50;Крышки и банки
+P024;P041;compatibility;0.42;Дерево: хлебница и скатерть
+P025;P114;substitute;0.45;Органайзеры металл
+P026;P019;substitute;0.52;Стекло/пластик
+P027;P028;substitute;0.60;Сатин/поплин
+P027;P033;substitute;0.55;Сатин/бамбук
+P028;P034;compatibility;0.50;Комплект + пододеяльник
+P029;P041;co_consumption;0.60;Лён: бельё и скатерть
+P030;P009;compatibility;0.55;Детская тема
+P031;P034;compatibility;0.45;Простыня + пододеяльник
+P032;P027;compatibility;0.40;Наволочки + комплект
+P033;P041;compatibility;0.52;Бамбук/лён
+P034;P031;compatibility;0.45;Комплектующие
+P035;P030;compatibility;0.55;Семейное/детское
+P036;P037;substitute;0.58;Полотенце/набор
+P036;P060;compatibility;0.50;Полотенца в ванную
+P037;P060;substitute;0.55;Наборы полотенец
+P038;P042;compatibility;0.50;Плед + подушка
+P039;P043;compatibility;0.52;Текстиль для окон/ванной
+P040;P067;substitute;0.55;Коврики
+P041;P029;co_consumption;0.60;Лён
+P042;P038;compatibility;0.50;Декор спальни
+P043;P067;compatibility;0.50;Ванная текстиль
+P044;P045;compatibility;0.52;Декор
+P044;P047;substitute;0.50;Вазы/скульптуры
+P045;P051;co_consumption;0.62;Ароматы
+P046;P049;compatibility;0.50;Декор стен и часов
+P047;P050;co_consumption;0.55;Дерево/ротанг
+P048;P096;substitute;0.55;Гирлянды
+P049;P095;compatibility;0.45;Освещение/часы
+P050;P119;substitute;0.50;Плетёные корзины
+P051;P045;co_consumption;0.58;Ароматы
+P052;P053;co_consumption;0.65;Смесители одной серии
+P052;P055;substitute;0.50;Смесители
+P053;P058;compatibility;0.55;Смеситель + шланг
+P054;P058;compatibility;0.50;Душ + шланг
+P055;P052;substitute;0.50;Смесители
+P056;P054;co_consumption;0.52;Душ
+P057;P052;compatibility;0.55;Сифон + смеситель
+P058;P054;compatibility;0.50;Душ + шланг
+P059;P053;substitute;0.55;Термостат vs обычный
+P060;P037;substitute;0.52;Наборы полотенец
+P061;P075;co_consumption;0.50;Крючки
+P062;P063;co_consumption;0.55;Аксессуары одной серии
+P063;P066;co_consumption;0.55;Набор в ванную
+P064;P073;substitute;0.55;Зеркала
+P065;P123;substitute;0.50;Корзины для белья/вещей
+P066;P060;co_consumption;0.55;Наборы в ванную
+P067;P043;compatibility;0.50;Ванная
+P068;P072;co_consumption;0.55;Мебель в ванную
+P069;P068;compatibility;0.50;Пенал + шкаф
+P070;P068;co_consumption;0.60;Тумба + шкаф
+P071;P072;compatibility;0.45;Полки
+P072;P071;compatibility;0.45;Полки
+P073;P064;substitute;0.55;Зеркала
+P074;P104;co_consumption;0.55;Дерево в интерьере
+P075;P061;co_consumption;0.50;Крючки
+P076;P082;substitute;0.55;Матрасы
+P076;P079;compatibility;0.50;Матрас + топпер
+P077;P083;compatibility;0.50;Матрас + подушка
+P078;P091;co_consumption;0.60;Детская спальня
+P079;P080;compatibility;0.50;Топпер + наматрасник
+P080;P083;co_consumption;0.45;Постель
+P081;P076;compatibility;0.55;Основание + матрас
+P082;P083;co_consumption;0.55;Ортопедия
+P083;P080;co_consumption;0.45;Постель
+P084;P076;co_consumption;0.65;Кровать + матрас
+P085;P078;compatibility;0.50;Детская кровать
+P086;P117;substitute;0.50;Комоды
+P087;P116;substitute;0.55;Шкафы
+P088;P086;compatibility;0.45;Мебель одной серии
+P089;P095;co_consumption;0.50;Спальня декор
+P090;P102;substitute;0.50;Пуфы
+P091;P121;compatibility;0.55;Детская мебель
+P092;P098;substitute;0.50;Ночники детские
+P093;P094;co_consumption;0.55;Светильники
+P094;P093;co_consumption;0.55;Светильники
+P095;P089;co_consumption;0.50;Спальня
+P096;P048;substitute;0.55;Гирлянды
+P097;P093;substitute;0.50;Лампы
+P098;P092;substitute;0.50;Ночники
+P099;P176;substitute;0.55;Умные лампы
+P100;P108;compatibility;0.55;Гостиная
+P100;P103;substitute;0.50;Диваны
+P101;P105;co_consumption;0.50;Мягкая мебель
+P102;P090;substitute;0.50;Пуфы
+P103;P100;substitute;0.50;Диваны
+P104;P074;co_consumption;0.55;Дерево
+P105;P101;co_consumption;0.50;Мягкая мебель
+P106;P102;substitute;0.45;Пуфы
+P107;P091;compatibility;0.55;Детская
+P108;P100;compatibility;0.55;Гостиная
+P109;P113;substitute;0.55;Столы
+P110;P114;substitute;0.52;Стеллажи
+P111;P112;co_consumption;0.50;Стол + подставка
+P112;P111;co_consumption;0.50;Рабочее место
+P113;P109;substitute;0.55;Столы
+P114;P110;substitute;0.52;Стеллажи
+P115;P107;compatibility;0.55;Детская
+P116;P087;substitute;0.55;Шкафы
+P117;P086;substitute;0.50;Комоды
+P118;P120;co_consumption;0.50;Хранение
+P119;P123;substitute;0.50;Корзины
+P120;P118;co_consumption;0.50;Хранение
+P121;P091;compatibility;0.55;Детская
+P122;P118;compatibility;0.45;Хранение
+P123;P065;substitute;0.50;Корзины
+P124;P126;substitute;0.55;Кашпо
+P124;P128;co_consumption;0.55;Растения
+P125;P124;compatibility;0.50;Кашпо
+P126;P124;substitute;0.55;Кашпо
+P127;P130;compatibility;0.50;Растения
+P128;P124;co_consumption;0.55;Растения
+P129;P132;co_consumption;0.55;Уход за растениями
+P130;P127;compatibility;0.50;Растения
+P131;P132;co_consumption;0.55;Уход
+P132;P129;co_consumption;0.55;Уход
+P133;P139;co_consumption;0.60;Сад
+P133;P135;substitute;0.45;Инструменты
+P134;P135;co_consumption;0.50;Инвентарь
+P135;P134;co_consumption;0.50;Инвентарь
+P136;P138;co_consumption;0.50;Сад
+P137;P140;compatibility;0.50;Полив
+P138;P136;co_consumption;0.50;Сад
+P139;P140;co_consumption;0.55;Сад
+P140;P141;co_consumption;0.55;Полив
+P141;P140;co_consumption;0.55;Полив
+P142;P143;co_consumption;0.65;Сад мебель
+P142;P146;substitute;0.50;Кресла
+P143;P142;co_consumption;0.65;Сад
+P144;P148;co_consumption;0.55;Отдых
+P145;P144;compatibility;0.50;Сад
+P146;P142;substitute;0.50;Кресла
+P147;P142;compatibility;0.45;Балкон
+P148;P144;co_consumption;0.55;Отдых
+P149;P144;substitute;0.50;Коконы
+P150;P158;complement;0.65;Насадки к роботу
+P150;P152;substitute;0.55;Пылесосы
+P151;P150;substitute;0.55;Роботы
+P152;P156;substitute;0.55;Пылесосы
+P153;P151;substitute;0.50;Пылесосы
+P154;P155;co_consumption;0.55;Моющие
+P155;P154;co_consumption;0.55;Моющие
+P156;P152;substitute;0.55;Пылесосы
+P157;P141;compatibility;0.45;Сад
+P158;P150;complement;0.65;Насадки
+P159;P160;co_consumption;0.60;Химия
+P160;P161;co_consumption;0.55;Химия
+P161;P173;compatibility;0.50;Стёкла
+P162;P163;substitute;0.55;Стирка
+P163;P166;substitute;0.50;Эко-химия
+P164;P159;co_consumption;0.45;Посуда
+P165;P160;co_consumption;0.50;Уборка
+P166;P163;substitute;0.50;Эко
+P167;P168;co_consumption;0.55;Уборка
+P168;P169;co_consumption;0.55;Уборка
+P169;P168;co_consumption;0.55;Уборка
+P170;P168;co_consumption;0.55;Уборка
+P171;P167;co_consumption;0.50;Уборка
+P172;P159;compatibility;0.45;Посуда
+P173;P161;compatibility;0.50;Стёкла
+P174;P168;co_consumption;0.55;Набор
+P175;P119;substitute;0.45;Корзины
+P176;P177;co_consumption;0.65;Умный дом
+P176;P099;substitute;0.55;Умные лампы
+P177;P176;co_consumption;0.65;Умный дом
+P178;P182;co_consumption;0.55;Датчики
+P179;P178;co_consumption;0.60;Безопасность
+P180;P178;co_consumption;0.55;Безопасность
+P181;P185;compatibility;0.55;Климат
+P182;P178;co_consumption;0.55;Датчики
+P183;P184;co_consumption;0.60;Умный дом
+P184;P183;co_consumption;0.60;Умный дом
+P185;P186;substitute;0.50;Климат
+P186;P187;substitute;0.55;Увлажнители
+P187;P186;substitute;0.55;Увлажнители
+P188;P191;substitute;0.50;Климат
+P189;P190;co_consumption;0.50;Климат
+P190;P051;substitute;0.50;Ароматы
+P191;P192;substitute;0.50;Климат
+P192;P191;substitute;0.50;Климат
+P193;P197;substitute;0.55;Удлинители
+P194;P195;co_consumption;0.55;Аксессуары
+P195;P194;co_consumption;0.55;Аксессуары
+P196;P194;co_consumption;0.50;Кабели
+P197;P193;substitute;0.55;Удлинители
+P198;P199;co_consumption;0.45;Аксессуары
+P199;P198;co_consumption;0.45;Аксессуары
+P200;P197;substitute;0.55;Удлинители
